@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        button {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<button onclick="assignments1()">Bấm để bắt đầu bài 1</button>
+<br>
+<button onclick="assignments2()">Bấm để bắt đầu bài 2</button>
+</body>
+</html>
+
+<script>
+
+    function assignments1() {
+        let num = 0;
+        while (num !== -1) {
+            num = +prompt("Nhập số N (Hủy vòng bằng giá trị -1)");
+        }
+    }
+    function assignments2() {
+        let hrWidth = 0;
+        while (hrWidth <= 100) {
+            document.write('<hr style="width:' + hrWidth + '%;"><br>');
+            hrWidth++;
+        }
+    }
+
+    // Viết chương trình nhận vào một số từ hộp thoại,
+    //     việc nhập kết thúc khi người dùng nhập vào giá trị -1.
+    // Mỗi giá trị nhập được sẽ được hiển thị ra và thực hiện
+    // tính tổng các giá trị đó.
+
+    // Viết chương hình hiển thị thẻ <hr> theo độ rộng từ 1 đến 100.
+    // Kết quả sẽ được hiển thị như hình
+
+</script>
