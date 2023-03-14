@@ -23,8 +23,11 @@
 
     function assignments1() {
         let num = 0;
+        let sum = 0;
         while (num !== -1) {
             num = +prompt("Nhập số N (Hủy vòng bằng giá trị -1)");
+            sum += num;
+            alert(`Tổng số tới hiện tại là ${sum}`);
         }
     }
     function assignments2() {
